@@ -1,0 +1,115 @@
+.Ride-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.search-area{
+    width: 30vw;
+}
+.borderdiv{
+    width: 90%;
+    margin: 40px auto;
+    border: 3px solid rgb(212, 212, 212);
+    border-radius: 10px;
+}
+.borderdiv h2{
+    padding: 25px 0 10px 30px;
+}
+.input-container{
+    width: 85%;
+    height: 8vh;
+    background-color: #F1F1F1; 
+    margin: 25px 30px;
+    display: flex;
+    border-radius: 10px;
+}
+.input-container input{
+    width: 90%;
+    height: 8vh;
+    margin: 0px 5px;
+    padding-left: 10px;
+    background-color: #F1F1F1; 
+    outline: 0;
+    border: 0;
+    font-size: 1.3vw;
+}
+.icon-circle{
+    padding: 25px 0 0 10px;
+}
+
+.cross-icon-pickup{
+    padding: 8px 10px 0 0px;
+    font-size: 2vw;
+    transform: scale(0);
+}
+.cross-icon-pickup:hover{
+    cursor: pointer;
+}
+.enable-cross-icon-pickup{
+    /* position: absolute; */
+    padding: 8px 10px 0 0px;
+    font-size: 2vw;
+    /* right: 50px; */
+    transform: scale(1);
+}
+.cross-icon-drop{
+    padding: 8px 10px 0 0px;
+    font-size: 2vw;
+    transform: scale(0);
+}
+.cross-icon-drop:hover{
+    cursor: pointer;
+}
+.enable-cross-icon-drop{
+    /* position: absolute; */
+    padding: 8px 10px 0 0px;
+    font-size: 2vw;
+    /* right: 50px; */
+    transform: scale(1);
+}
+
+.btn-search{
+    width: 85%;
+    margin:8px 0 30px 30px !important;
+    background-color: #162938;
+    color: #fff;
+    border-radius: 10px;
+    padding: 14px 50px;
+    font-size: 1.2vw;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+}
+.btn-search:hover{
+    cursor: pointer;
+    opacity: .9;
+}
+.btn-search:disabled {
+    background: #F1F1F1;
+    color: #555;
+    cursor: not-allowed;
+}
+.btn-search:enabled {
+    background: #162938;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.map-area{
+    width: 70vw;
+    /* background-color: aqua; */
+}
+.map{
+    height: 80vh;
+    /* background-color: rosybrown; */
+    margin: 23px;
+    border: 2px solid black;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

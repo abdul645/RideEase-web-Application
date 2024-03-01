@@ -1,0 +1,33 @@
+<%- include('./partials/header.ejs')%>
+    <link rel="stylesheet" href="/css/Ride.css">
+    <div class="Ride-Container">
+        <div class="search-area">
+            <div class="borderdiv">
+                <h2>Get a Ride</h2>
+                <div class="input-container">
+                    <span class="icon-circle">
+                        <i class="fa-solid fa-circle-dot fa-2xs" style="color: #080808;"></i>
+                    </span>
+                    <input type="text" class="pickup-input" id="text-pickup" placeholder="Pickup location">
+                    <!-- <span class="getlocation"><i class="fa-solid fa-location-arrow"></i></span> -->
+                    <span class="cross-icon-pickup" id="pickup-icon"><i class="fa-solid fa-square-xmark"
+                            style="color: #000000;"></i></span>
+                </div>
+                <div class="input-container">
+                    <span class="icon-circle">
+                        <i class="fa-solid fa-circle-stop fa-2xs" style="color: #000000;"></i>
+                    </span>
+                    <input type="text" class="dest-input" id="text-dropoff" placeholder="Dropoff location">
+                    <span class="cross-icon-drop" id="dropoff-icon"><i class="fa-solid fa-square-xmark"
+                            style="color: #000000;"></i></span>
+                </div>
+                <button class="btn-search" disabled="disabled">Search</button>
+            </div>
+        </div>
+
+
+        <%- include('./partials/sideBarMap.ejs') %>
+    </div>
+
+    <script src="/js/Ride.js"></script>
+   
